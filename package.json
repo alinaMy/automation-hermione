@@ -1,0 +1,14 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "automation testing using hermione",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Senko",
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^4.11.0"
+  }
+}
