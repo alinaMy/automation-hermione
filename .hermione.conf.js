@@ -1,16 +1,14 @@
 module.exports = {
-  baseUrl: 'https://yandex.ru',
-  gridUrl: 'http://0.0.0.0:4444/wd/hub',
+  sets: {
+    desktop: {
+      files: 'tests/desktop'
+    }
+  },
 
   browsers: {
     chrome: {
       desiredCapabilities: {
         browserName: 'chrome'
-      }
-    },
-    firefox: {
-      desiredCapabilities: {
-        browserName: 'firefox'
       }
     }
   }

@@ -2,6 +2,7 @@
   "name": "automation",
   "version": "1.0.0",
   "description": "automation testing using hermione",
+  "repository": "https://github.com/artsenius/automation-hermione",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +10,11 @@
   "author": "Arthur Senko",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.1.2",
+    "graceful-fs": "^4.1.11",
+    "hermione": "^0.62.0",
+    "minimatch": "^3.0.4",
+    "pug": "^2.0.1",
     "webdriverio": "^4.11.0"
   }
 }
