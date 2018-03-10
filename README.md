@@ -5,9 +5,9 @@
 ````
 git clone https://github.com/artsenius/automation-hermione.git
 ````
-#### 2. Install `chai` Module
+#### 2. Install necessary modules
 ````
-npm install chai
+npm install
 ````
 #### 3. Run `WebDriver IO` in separate Terminal tab.
 ````

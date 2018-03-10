@@ -1,7 +1,7 @@
 var assert = require('chai').assert;
 
-describe('BioCarCare', function() {
-  it('exists', function() {
+describe('First test', function() {
+  it('passed', function() {
     return this.browser
       .url('https://app.biocarcare.com/')
       .getText('#react-root h3')
