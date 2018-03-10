@@ -9,7 +9,7 @@ git clone https://github.com/artsenius/automation-hermione.git
 ````
 npm install
 ````
-#### 3. Run `WebDriver IO` in separate Terminal tab.
+#### 3. Run `Selenium Standalone Server` in separate Terminal tab.
 ````
 selenium-standalone start
 ````
