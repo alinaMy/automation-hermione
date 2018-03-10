@@ -5,6 +5,12 @@ module.exports = {
     }
   },
 
+  /*plugins: {
+    'allure-reporter': {
+      targetDir: 'allure-results'
+    }
+  },*/
+
   browsers: {
     chrome: {
       desiredCapabilities: {
