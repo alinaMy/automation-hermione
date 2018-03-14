@@ -5,11 +5,11 @@ module.exports = {
     }
   },
 
-  /*plugins: {
+  plugins: {
     'allure-reporter': {
       targetDir: 'allure-results'
     }
-  },*/
+  },
 
   browsers: {
   chrome: {
