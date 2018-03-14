@@ -22,6 +22,7 @@ git clone https://github.com/artsenius/automation-hermione.git
 ````
 npm install
 npm install hermione-allure-reporter -g
+npm i allure-commandline@1.x -g
 ````
 #### 4. Run `Selenium Standalone Server` in separate Terminal tab.
 ````

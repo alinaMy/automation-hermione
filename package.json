@@ -10,6 +10,7 @@
   "author": "Arthur Senko",
   "license": "MIT",
   "dependencies": {
+    "allure-commandline": "^1.5.0",
     "chai": "^4.1.2",
     "graceful-fs": "^4.1.11",
     "hermione": "^0.62.0",
