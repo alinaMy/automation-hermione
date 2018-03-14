@@ -1,7 +1,7 @@
 module.exports = {
   sets: {
-    desktop: {
-      files: 'tests/desktop'
+    SimpleTests: {
+      files: 'tests/simpleTests'
     }
   },
 
@@ -16,6 +16,21 @@ module.exports = {
     desiredCapabilities: {
       browserName: 'chrome'
     }
-  }
+  },
+    ie: {
+      desiredCapabilities: {
+        browserName: 'ie'
+      }
+    },
+    edge: {
+      desiredCapabilities: {
+        browserName: 'edge'
+      }
+    },
+    firefox: {
+      desiredCapabilities: {
+        browserName: 'firefox'
+      }
+    }
 }
 };

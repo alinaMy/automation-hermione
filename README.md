@@ -6,7 +6,8 @@ https://www.npmjs.com/get-npm
 ````
 ##### 2. `Selenium` installed using npm _(or another package manager)_
 ````
-npm install selenium-standalone -g && selenium standalone install
+npm install selenium-standalone@latest -g
+selenium standalone install
 ````
 ## Quick start:
 #### 1. Using Terminal (Bash, Command Prompt etc.) go to the directory where you store the Projects:
