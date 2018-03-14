@@ -12,10 +12,10 @@ module.exports = {
   },*/
 
   browsers: {
-    chrome: {
-      desiredCapabilities: {
-        browserName: 'chrome'
-      }
+  chrome: {
+    desiredCapabilities: {
+      browserName: 'chrome'
     }
   }
+}
 };
