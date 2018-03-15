@@ -7,7 +7,7 @@ https://www.npmjs.com/get-npm
 ##### 2. `Selenium` installed using npm _(or another package manager)_
 ````
 npm install selenium-standalone@latest -g
-selenium standalone install
+selenium-standalone install
 ````
 ## Quick start:
 #### 1. Using Terminal (Bash, Command Prompt etc.) go to the directory where you store the Projects:
@@ -21,8 +21,7 @@ git clone https://github.com/artsenius/automation-hermione.git
 #### 3. Install necessary modules
 ````
 npm install
-npm install hermione-allure-reporter -g
-npm i allure-commandline@1.x -g
+npm install -g hermione allure-commandline@1.x hermione-allure-reporter
 ````
 #### 4. Run `Selenium Standalone Server` in separate Terminal tab.
 ````
